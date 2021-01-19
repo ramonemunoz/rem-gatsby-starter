@@ -1,0 +1,183 @@
+.info {
+  .subheader {
+    padding: 10px 20px 0px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #707070;
+  }
+  .content {
+    margin-top: 60px;
+    padding: 0 54px 0 20px;
+    .content-info {
+      min-height: 85vh;
+      position: relative;
+      width: 100%;
+      button {
+        position: absolute;
+        display: block;
+        color: #000000;
+
+        &:hover {
+          font-size: 27px;
+        }
+        &.info-1 {
+          top: 120px;
+          left: 25px;
+        }
+
+        &.info-2 {
+          top: 60px;
+          left: 40%;
+        }
+        &.info-3 {
+          top: 100px;
+          right: 60px;
+        }
+        &.info-4 {
+          top: 300px;
+          left: 0;
+        }
+        &.info-5 {
+          top: 250px;
+          left: 50%;
+        }
+        &.info-6 {
+          top: 330px;
+          right: 55px;
+        }
+        &.info-7 {
+          top: 490px;
+          left: 45%;
+        }
+        &.info-8 {
+          top: 560px;
+          left: 0px;
+        }
+        &.info-9 {
+          top: 540px;
+          right: 20px;
+        }
+        &.info-10 {
+          top: 600px;
+          left: 48%;
+        }
+      }
+      video {
+        display: none;
+        z-index: 3;
+        &.active {
+          display: block;
+        }
+
+        &.info-4-image {
+          position: absolute;
+          right: 10px;
+          top: 0px;
+          width: 60%;
+        }
+        &.info-5-image {
+          position: absolute;
+          width: 60%;
+          top: 310px;
+          left: 58%;
+        }
+        &.info-10-image {
+          position: absolute;
+          width: 65%;
+          top: 200px;
+          right: -5%;
+        }
+      }
+      img {
+        display: none;
+        z-index: 3;
+        &.active {
+          display: block;
+        }
+        &.info-1-image {
+          position: absolute;
+          left: 60%;
+          top: 100px;
+          width: 80%;
+        }
+        &.info-2-image {
+          position: absolute;
+          right: -10%;
+          top: 200px;
+          width: 40%;
+        }
+        &.info-3-image {
+          position: absolute;
+          left: 0;
+          top: 160px;
+          width: 60%;
+        }
+        &.info-4-image {
+          position: absolute;
+          right: 10px;
+          top: 0px;
+          width: 60%;
+        }
+        &.info-5-image {
+          position: absolute;
+          width: 60%;
+          top: 310px;
+          left: 58%;
+        }
+        &.info-6-image {
+          position: absolute;
+          width: 65%;
+          top: 10px;
+          right: -66%;
+        }
+        &.info-7-image {
+          position: absolute;
+          width: 35%;
+          top: 20px;
+          right: 80px;
+        }
+        &.info-8-image {
+          position: absolute;
+          width: 55%;
+          top: 60px;
+          right: -20%;
+        }
+        &.info-9-image {
+          position: absolute;
+          width: 45%;
+          top: 80px;
+          right: -55%;
+        }
+        &.info-10-image {
+          position: absolute;
+          width: 65%;
+          top: 200px;
+          right: -5%;
+        }
+      }
+    }
+    .time {
+      white-space: nowrap;
+    }
+  }
+  .info-footer{
+    h2{
+      margin-bottom: -5px;
+    }
+  }
+}
+
+.info-extra {
+  display: none;
+  &.active {
+    display: block;
+    .row {
+      height: 60vh;
+      .info-extra-video {
+        width: 70%;
+        margin-right: 0px;
+        margin-left: auto;
+        display: block;
+      }
+    }
+  }
+}

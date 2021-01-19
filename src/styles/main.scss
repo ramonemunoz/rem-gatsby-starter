@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+// global
+@import 'global/variables';
+@import 'global/fonts';
+@import 'global/typography';
+@import 'global/mixins';
+
+// components
+@import 'components/footer';
+@import 'components/header';
+@import 'components/layout';
+
+// pages
+@import 'pages/index';

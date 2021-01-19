@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import "./src/styles/global/normalize.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import './src/styles/main.scss';
